@@ -2,12 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Version>0.0.1-alpha</Version>
-    <Company />
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>StardustDL</Authors>
-    <Description>Bring rust-like codes to C#.</Description>
+    <Description>The core types of Rustle.</Description>
     <Copyright>Copyright (c) StardustDL. All rights reserved.</Copyright>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/StardustDL/Rustle</PackageProjectUrl>
@@ -15,13 +14,5 @@
     <RepositoryType>Git</RepositoryType>
     <PackageTags>Rust</PackageTags>
   </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile></DocumentationFile>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Rustle.Core\Rustle.Core.csproj" />
-  </ItemGroup>
 
 </Project>
